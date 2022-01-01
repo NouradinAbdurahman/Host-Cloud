@@ -133,114 +133,65 @@ nav ul li button.active:hover{
 .heading-content ul li {
     color: rgb(183, 175, 175);
 }
-.about{
+.service-section {
     width: 100%;
-    padding: 100px 0;
-    background-color: #f7f7f7;
+    height: auto;
+    padding: 200px 0;
+    background-color: white;
+}
+.service-title {
+    color: #00bcd4;
     text-transform: capitalize;
+    font-weight: bolder;
+    padding-bottom: 10px;
 }
-.about hr {
-    border: none;
-    border-bottom: 3px solid #eee;
-    margin: 50px 0;
-}
-.about-content {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 50px;
-}
-.about-items p {
-    color: #7a7a7a;
-    line-height: 25px;
-}
-.about-items .about-heading span{
-    display: block;
-    color: #00bcd4;
-    padding-bottom: 20px;
-    font-weight: bold;
-}
-.about-items .about-heading  h2 {
-    padding-bottom: 15px;
-}
-.about-items .about-body-header span{
-    display: inline-block;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.about-items .about-body-header span a {
-    color: black;
-    text-decoration: none;
-}
-.about-items .about-body-header span.middle {
-    margin: 0 50px;
-}
-.about-items .about-body-header span.active a {
-    color: #00bcd4;
-}
-.about-items .about-body-header span a:hover {
-    color: #00bcd4;
-    transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-}
-.about-items .about-body p {
-    margin-top: 30px;
-}
-.our-team {
-    padding: 150px 0;
-    text-align: center;
-}
-.our-team-head span{
-    display: block;
-    color: #00bcd4;
-    font-size: .9rem;
-    font-weight: bold;
-    padding-bottom: 20px;
+.service-content .serice-content-title {
     text-transform: capitalize;
+    padding: 15px 0 10px 0;
 }
-.our-team-head h2 {
-    padding-bottom: 20px;
+.service-content .service-intro, .service-item p{
+    color: #888;
 }
-.our-team-head p {
-    color: #7a7a7a;
-    line-height: 25px;
-    padding: 0 150px;
+.service-intro {
+    line-height: 1.5;
 }
-.our-team-content{
+.service-items{
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
 }
-.our-team-items {
-    margin-top: 100px;
+.service-item {
+    padding: 50px;
     background-color: #f7f7f7;
-    text-transform: capitalize;
+    text-align: center;
     box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
-    cursor: pointer;
 }
-.our-team-items:hover {
-    opacity: .8;
-    transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
+.service-item p {
+    padding-top: 20px;
+    line-height: 25px;
 }
-.our-team-items .client-name, .our-team-items .client-job{
+.service-item span {
     display: block;
+    text-transform: capitalize;
+    padding-top: 20px;
+    font-weight:600;
 }
-.our-team-items .client-name {
-    font-size: 1.3rem;
-    font-weight: bold;
-    padding: 50px 0 10px 0;
+.service-item .service-icon{
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    background-color: #00bcd4;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
-.our-team-items .client-job {
-    color: #00bcd4;
-    font-size: .9rem;
-    padding-bottom: 30px;
+.service-item i {
+    color: white;
+    font-size: 2rem;
+    padding: 25px 0;
 }
 .testimonial {
     width: 100%;
@@ -248,7 +199,7 @@ nav ul li button.active:hover{
     text-align: center;
     text-transform: capitalize;
     background-color: #f7f7f7;
-    padding: 100px 0;
+    padding: 90px 0;
 }
 .testimonial-title {
     display: block;
