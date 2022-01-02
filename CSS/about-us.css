@@ -102,6 +102,24 @@ nav ul li button.active:hover{
     -ms-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
 }
+.scrollUp {
+    position: fixed;
+    content: " ";
+    padding: 15px;
+    right: 1rem;
+    bottom: 1.5rem;
+    z-index: 10;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(rgba(114,2,187,1) 0%, rgba(50,100,245,1) 100%);
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 .heading {
     width: 100%;
     position: absolute;

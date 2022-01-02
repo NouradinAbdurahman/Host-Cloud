@@ -103,6 +103,9 @@
             </div>
         </div>
     </section>
+    <section class="scrollUp">
+        <i class="fas fa-arrow-circle-up"></i>
+       </section>
     <footer>
         <div class="container">
             <div class="footer-content">
@@ -149,5 +152,16 @@
             <p>Copyright &copy; 2021 Cloud Hosting Company - Designed by TemplateMo</p>
         </div>
     </footer>
+    <script>
+        // Scroll To Tup
+        const btnScrollToTup = document.querySelector(".scrollUp");
+        btnScrollToTup.addEventListener("click",() => {
+            window.scrollTo ({
+                top:0,
+                left:0,
+                behavior: "smooth"
+            })    
+        });
+    </script>
 </body>
 </html>
