@@ -172,3 +172,41 @@
         gap: 20px;
     }
 }
+@media screen and (max-width: 480px) {
+    #burger i {
+        padding: 10px;
+        font-size: 1.5rem;
+        background-color: #fff;
+        color: #00bcd4;
+        margin: 0 -50px;
+    }
+    .banner .title {
+        font-size: 1.5rem;
+    }
+    .trusted-section .trusted-img {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .trusted-section .trusted-img img {
+        width: 100%;
+        margin: 0;
+    }
+    .testimonial-quetion {
+        font-size: 1.5rem;
+    }
+    .testimonial-item {
+        width: 100%;
+       padding: 10px;
+    }
+    .footer-item-2 {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        margin: auto;
+        width: 100%;
+    }
+    footer .copyrigt p {
+        font-size: 12px;
+    }
+}
