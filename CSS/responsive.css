@@ -1,0 +1,116 @@
+@import url("./main.css");
+@import url("./about-us.css");
+@import url("./service.css");
+@import url("./contact.css");
+
+@media screen and (max-width: 1024px){
+    .container {
+        width: 90%;
+    }
+    nav {
+        display: none;
+    }
+    .burger , .close {
+        display: block;
+        cursor: pointer;
+    }
+    .burger i {
+        padding: 15px;
+        font-size: 2rem;
+        background-color: #fff;
+        color: #00bcd4;
+        margin: 0 -50px;
+    }
+    .logo {
+        margin-top: 10px;
+    }
+    .logo p a{
+        font-size: 2rem;
+    }
+    .logo p a span{
+        font-size: 1rem;
+    }
+    .banner {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .trusted-section .trusted-img {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+    }
+    .trusted-section .trusted-img img {
+        margin: auto;
+        /* margin-bottom: 50px; */
+    }
+    .service-items{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .service-item {
+        padding: 50px 10px 60px 10px;
+    }
+    .pricing-items {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .feature {
+        width: 100%;
+        height: auto;
+        padding: 150px 0;
+    } 
+    .footer-item-2 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        margin: auto;
+        width: 100%;
+    }
+    .footer-item-left {
+        display: block;
+    }
+    .footer-item-1 {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) {
+    .trusted-section .trusted-img {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .service-items{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+    .pricing-items {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+    .feature .feature-content {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        margin-top: 50px;
+    }
+    footer .copyrigt p {
+        font-size: 14px;
+    }
+    .banner input[type="text"] {
+        width: 50%;
+    }
+    .banner form ul {
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+}
