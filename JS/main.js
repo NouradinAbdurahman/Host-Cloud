@@ -12,6 +12,21 @@ function fixedNav() {
 window.addEventListener('scroll', fixedNav);
 
 
+// Open nad Close Menu
+const openMenu = document.querySelector(".open");
+const closeMenu = document.querySelector(".close");
+const navBar = document.getElementById("nav");
+
+openMenu.addEventListener("click", () => {
+  navBar.classList.add("open-close");
+})
+
+closeMenu.addEventListener("click", () => {
+  navBar.classList.remove("open-close");
+})
+
+
+
 
 // Scroll To Tup
 const btnScrollToTup = document.querySelector(".scrollUp");
@@ -22,3 +37,4 @@ btnScrollToTup.addEventListener("click",() => {
         behavior: "smooth"
     })    
 });
+

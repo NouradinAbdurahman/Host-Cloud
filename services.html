@@ -9,7 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/service.css">
     <link rel="stylesheet" href="./CSS/responsive.css">
-    <title>About Us</title>
+    <title>Services</title>
 </head>
 <body>
     <header>
@@ -17,10 +17,12 @@
             <div class="container">
                 <div class="header-content">
                     <div class="logo"><p><a href="./index.html" draggable="false">host <span>cloud</span></a></p></div>
+                    <div id="burger"><i class="fas fa-bars open"></i></div>
                     <nav>
+                        <div id="close"><i class="fas fa-times close"></i></div>
                         <ul>
                             <li><a href="./index.html">home</a></li>
-                            <li><a href="./About us.html">about us</a></li>
+                            <li><a href="./About-us.html">about us</a></li>
                             <li><a href="./services.html" class="active">our services</a></li>
                             <li><a href="./contact.html">contact us</a></li>
                             <li><a href="#"><button>log in</button></a></li>
@@ -167,6 +169,20 @@
         </div>
     </footer>
     <script>
+       // Open nad Close Menu
+       const openMenu = document.querySelector(".open");
+        const closeMenu = document.querySelector(".close");
+        const navBar = document.getElementById("nav");
+
+        openMenu.addEventListener("click", () => {
+        navBar.classList.add("open-close");
+        })
+
+        closeMenu.addEventListener("click", () => {
+        navBar.classList.remove("open-close");
+        })
+
+
         // Scroll To Tup
         const btnScrollToTup = document.querySelector(".scrollUp");
         btnScrollToTup.addEventListener("click",() => {
