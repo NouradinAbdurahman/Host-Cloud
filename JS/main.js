@@ -1,21 +1,7 @@
-const nav = document.querySelector('#nav');
-let navTop = nav.offsetTop;
-
-function fixedNav() {
-  if (window.scrollY >= navTop) {    
-    nav.classList.add('fixed');
-  } else {
-    nav.classList.remove('fixed');    
-  }
-}
-
-window.addEventListener('scroll', fixedNav);
-
-
 // Open nad Close Menu
 const openMenu = document.querySelector(".open");
 const closeMenu = document.querySelector(".close");
-const navBar = document.getElementById("nav");
+const navBar = document.querySelector("nav");
 
 openMenu.addEventListener("click", () => {
   navBar.classList.add("open-close");
@@ -24,7 +10,6 @@ openMenu.addEventListener("click", () => {
 closeMenu.addEventListener("click", () => {
   navBar.classList.remove("open-close");
 })
-
 
 
 
