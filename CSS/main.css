@@ -177,7 +177,7 @@ nav ul li button.active:hover{
     background-color: #00bcd4;
     outline: none;
     border: 1px solid #00bcd4;
-    padding: 10px;
+    padding: 10px !important;
     margin-left: 8px;
     color: white;
     text-transform: uppercase;
